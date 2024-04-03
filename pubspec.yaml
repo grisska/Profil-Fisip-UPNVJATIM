@@ -30,38 +30,81 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+    
+  
+  flutter_animate: 4.1.1+1
+  
+  smooth_page_indicator: ^1.1.0
+  auto_size_text: ^3.0.0
 
+  url_launcher: ^6.2.5
+  carousel_slider: ^4.2.1
 
-  # The following adds the Cupertino Icons font to your application.
-  # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^1.0.6
 
 dev_dependencies:
+  flutter_lints: 3.0.0
+  lints: 3.0.0
+
   flutter_test:
     sdk: flutter
-
+  
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
   # activated in the `analysis_options.yaml` file located at the root of your
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
-  flutter_lints: ^3.0.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
 # The following section is specific to Flutter packages.
 flutter:
-
-  # The following line ensures that the Material Icons font is
-  # included with your application, so that you can use the icons in
-  # the material Icons class.
   uses-material-design: true
-
-  # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
+  assets:
+     - images/logofisip.png
+     - images/images.jpg
+     - images/images2.jpg
+     - images/images3.jpg
+     - images/struktur.jpg
+     - images/fotogrisska.jpeg
+     - images/fotoyumna.png
+     - images/email.png
+     - images/diana_hertati.jpg
+     - images/vidya_pertiwi.jpg
+     - images/rusdi_hidayat.jpeg
+     - images/nurhadi.jpeg
+     - images/irwan_arianto.jpg
+     - images/ririn_puspita.jpeg
+     - images/maria_indira.jpeg
+     - images/adiasri_putri.jpeg 
+     - images/praja_firdaus.jpeg
+     - images/leily_suci.jpg
+     - images/dewi_puspa.jpeg
+     - images/adelia_savitri.jpeg
+     - images/susi_hardjati.jpeg
+     - images/acep_samsudin.jpg
+     - images/catur_suratnoaji.jpeg
+     - images/ario_bimo.jpg
+     - images/yudiana_indriastuti.jpg
+     - images/endang_sholihatin.jpeg
+     - images/adpub.jpeg
+     - images/adpub2.jpeg
+     - images/adpub3.jpg
+     - images/adbis.png
+     - images/adbis2.jpg
+     - images/adbis3.jpg
+     - images/ilkom.jpg
+     - images/ilkom2.jpg
+     - images/ilkom3.jpeg
+     - images/hi.jpg
+     - images/hi2.jpg
+     - images/hi3.jpg
+     - images/par.jpg
+     - images/par2.jpg
+     - images/par3.jpg
+     - images/li.jpeg
+     - images/li2.jpg
+     - images/li3.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
